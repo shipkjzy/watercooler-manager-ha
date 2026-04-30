@@ -17,8 +17,6 @@
 ## HA 里添加集成：
 - 设置 → 设备与服务 → 添加集成 → Watercooler Manager
 - 主机地址填运行水冷程序那台 Windows 电脑的局域网 IP，例如：192.168.1.50
-- /config/custom_components/watercooler_manager/
-- 重启 Home Assistant
 
 ## 也可以先在 HA 所在设备浏览器访问测试：
 - http://电脑IP:21977/api/status
