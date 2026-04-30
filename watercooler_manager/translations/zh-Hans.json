@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "水冷管理器",
+        "description": "填写运行 watercooler-manager 的电脑 IP 和 API 端口。程序内需要启用 API。",
+        "data": {
+          "host": "电脑 IP",
+          "port": "API 端口",
+          "scan_interval": "刷新间隔（秒）"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接，请确认程序已开启 API、防火墙已放行端口，并填写电脑局域网 IP。"
+    },
+    "abort": {
+      "already_configured": "该地址已添加。"
+    }
+  }
+}

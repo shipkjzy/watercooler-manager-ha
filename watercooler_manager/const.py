@@ -1,0 +1,7 @@
+DOMAIN = "watercooler_manager"
+DEFAULT_NAME = "水冷管理器"
+DEFAULT_HOST = "127.0.0.1"
+DEFAULT_PORT = 21977
+DEFAULT_SCAN_INTERVAL = 10
+CONF_PORT = "port"
+CONF_SCAN_INTERVAL = "scan_interval"
